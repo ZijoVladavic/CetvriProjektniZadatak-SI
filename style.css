@@ -1,0 +1,36 @@
+#temp{
+    font-size: 150%;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 300px;
+    text-align: center;
+    margin-left: 300px
+
+}
+body {
+    background-image: radial-gradient(#f1eecf, #c9c6af);
+
+}
+
+
+button{
+    display: block; 
+    margin: 0 auto;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+
+h3{
+    color: #007bff; font-size: 24px; font-weight: bold;
+}

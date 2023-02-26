@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>National holidays</title>
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+    <h3 style="text-align: center">Unesi godinu</h3>
+    <input
+      type="text"
+      id="year"
+      style="
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        margin: auto;
+        display: block;
+      "
+    />
+    <h3 style="text-align: center">Unesi kod drzave (2 slova)</h3>
+    <input
+      type="text"
+      id="code"
+      style="
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        margin: auto;
+        display: block;
+      "
+    />
+    <button
+      id="submit"
+      style="margin-top: 20px; display: block"
+      onclick="dohvati()"
+    >
+      Submit
+    </button>
+    <div id="temp"></div>
+  </body>
+</html>
